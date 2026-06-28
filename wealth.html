@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wealth Management — J.P. Bergman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span>J.P. Bergman</span></a>
+    <ul class="nav-items">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item">
+        <button>Services <span class="caret">▾</span></button>
+        <div class="dropdown">
+          <div class="dropdown-item"><a href="mortgages.html"><span class="dropdown-item-title">Mortgage Broking</span><span class="dropdown-item-desc">Home, investment &amp; refinancing</span></a></div>
+          <div class="dropdown-item"><a href="lending.html"><span class="dropdown-item-title">Private Lending</span><span class="dropdown-item-desc">Bridging, development &amp; commercial</span></a></div>
+          <div class="dropdown-item"><a href="wealth.html"><span class="dropdown-item-title">Wealth Management</span><span class="dropdown-item-desc">Strategy, super &amp; financial planning</span></a></div>
+          <div class="dropdown-item"><a href="investing.html"><span class="dropdown-item-title">Investment Strategy</span><span class="dropdown-item-desc">Portfolios, equities &amp; capital growth</span></a></div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:0000000000" class="nav-contact-link">+61 (0) 000 000 000</a>
+      <a href="contact.html" class="nav-enquire">Enquire Now</a>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <span class="mob-section-label">Services</span>
+  <a href="mortgages.html" class="mob-link" onclick="closeMobile()">Mortgage Broking</a>
+  <a href="lending.html"   class="mob-link" onclick="closeMobile()">Private Lending</a>
+  <a href="wealth.html"    class="mob-link" onclick="closeMobile()">Wealth Management</a>
+  <a href="investing.html" class="mob-link" onclick="closeMobile()">Investment Strategy</a>
+  <span class="mob-section-label">Company</span>
+  <a href="about.html"   class="mob-link" onclick="closeMobile()">About</a>
+  <a href="contact.html" class="mob-link" onclick="closeMobile()">Contact</a>
+</div>
+
+<div class="page-hero hero-mid">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <p class="hero-label">Services</p>
+    <h1 class="hero-title-inner">Wealth Management</h1>
+    <p class="hero-sub">A holistic strategy for growing, protecting and preserving the wealth you have worked to build — across every stage of life.</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a><span class="sep">/</span>
+  <a href="#">Services</a><span class="sep">/</span>
+  <span class="current">Wealth Management</span>
+</div>
+
+<section class="section section-white">
+  <div class="two-col gap-lg">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Wealth &amp; Financial Strategy</span>
+      <h2 class="reveal r2" style="margin-bottom:1.5rem;">Genuine wealth management<br>is a discipline, not a product.</h2>
+      <p class="reveal r3" style="font-size:1.05rem;color:#4a5a68;line-height:1.85;margin-bottom:1.4rem;">
+        Preserving and growing wealth requires more than a savings plan or a standard superannuation account. It requires a clear strategy — one that accounts for your income, your assets, your obligations, your tax position and the life you intend to live.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:1.2rem;">
+        At J.P. Bergman, we take a genuinely holistic view of your financial position. We examine everything — what you earn, what you own, what you owe, and what you want — and build a strategy that works in concert across every dimension of your financial life.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:2.5rem;">
+        We do not sell products. We provide advice. The distinction matters — because our recommendations are made in your interest, not in the interest of a commission structure or a product shelf.
+      </p>
+      <a href="contact.html" class="btn btn-navy reveal r4">Begin the Conversation</a>
+    </div>
+    <div class="reveal r2">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&auto=format&fit=crop&q=80"
+           alt="J.P. Bergman wealth adviser"
+           style="width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(20%);" />
+    </div>
+  </div>
+</section>
+
+<section class="section section-light">
+  <div class="section-header reveal">
+    <span class="label" style="display:block;margin-bottom:0.9rem;">Our Approach</span>
+    <h2>What wealth management<br>looks like with us.</h2>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--rule);">
+    <div class="card reveal">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Financial Planning</h3>
+      <p class="card-body">A comprehensive financial plan is the foundation of everything. We map your current position against your long-term goals and build a clear, actionable strategy to close the gap — reviewing it regularly as life evolves.</p>
+    </div>
+    <div class="card reveal r2">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Superannuation Strategy</h3>
+      <p class="card-body">Your superannuation is likely your largest long-term asset. We review fund selection, contribution strategies, investment options and transition-to-retirement planning to ensure your super is working as hard as possible.</p>
+    </div>
+    <div class="card reveal r3">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Retirement Planning</h3>
+      <p class="card-body">Retirement is not an event — it is a phase that requires careful preparation. We build income strategies, cashflow projections and drawdown plans that give you the confidence to retire on your terms, when you choose.</p>
+    </div>
+    <div class="card reveal">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Tax-Effective Structuring</h3>
+      <p class="card-body">The structure through which you hold and manage your assets has a direct impact on your tax position. We work with your accountant or our trusted referral network to ensure your affairs are arranged as efficiently as possible.</p>
+    </div>
+    <div class="card reveal r2">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Asset Protection</h3>
+      <p class="card-body">Wealth built over a lifetime can be vulnerable to events that are difficult to predict. We review your exposure and put structures in place — trusts, insurances and legal arrangements — that protect what matters most.</p>
+    </div>
+    <div class="card reveal r3">
+      <h3 class="card-title" style="font-size:1.2rem;margin-bottom:0.7rem;">Estate &amp; Succession Planning</h3>
+      <p class="card-body">Ensuring your wealth passes to the right people, in the right way, at the right time requires deliberate planning. We coordinate with estate planning specialists to make certain your wishes are reflected in a robust, legally sound structure.</p>
+    </div>
+  </div>
+</section>
+
+<div class="pull-quote-section">
+  <p class="pull-quote reveal">"Wealth management is not about managing money — it is about managing the life that money makes possible."</p>
+  <span class="pull-attr reveal r2">— J.P. Bergman</span>
+</div>
+
+<section class="section section-white">
+  <div class="two-col">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Who We Work With</span>
+      <h2 class="reveal r2" style="margin-bottom:1.5rem;">Our wealth clients.</h2>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:1.2rem;">We work with a broad range of individuals and families — from those beginning to accumulate wealth in their thirties and forties to those approaching or already in retirement with complex estate and drawdown considerations.</p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:2.5rem;">What our clients share is not a level of wealth, but an attitude — a seriousness about their financial future and an understanding that the right advice, applied consistently, makes an extraordinary difference over time.</p>
+      <a href="contact.html" class="btn btn-navy reveal r4">Book a Consultation</a>
+    </div>
+    <div class="reveal r2" style="display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule);">
+      <div style="padding:1.5rem 0;border-bottom:1px solid var(--rule);">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--navy);margin-bottom:0.3rem;">Professionals &amp; Executives</p>
+        <p style="font-size:0.82rem;color:var(--mid-grey);">High-income earners seeking to optimise their tax position and build long-term wealth alongside a demanding career.</p>
+      </div>
+      <div style="padding:1.5rem 0;border-bottom:1px solid var(--rule);">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--navy);margin-bottom:0.3rem;">Business Owners</p>
+        <p style="font-size:0.82rem;color:var(--mid-grey);">Entrepreneurs who need their personal and business finances managed with equal sophistication and in close coordination.</p>
+      </div>
+      <div style="padding:1.5rem 0;border-bottom:1px solid var(--rule);">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--navy);margin-bottom:0.3rem;">Pre-Retirees &amp; Retirees</p>
+        <p style="font-size:0.82rem;color:var(--mid-grey);">Those transitioning into or already in retirement, focused on generating reliable income and preserving capital for the long term.</p>
+      </div>
+      <div style="padding:1.5rem 0;">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--navy);margin-bottom:0.3rem;">Families with Significant Assets</p>
+        <p style="font-size:0.82rem;color:var(--mid-grey);">Multi-generational families requiring sophisticated structuring, estate planning and intergenerational wealth transfer strategies.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="img-panel">
+  <div class="img-panel-bg" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="img-panel-overlay"></div>
+  <div class="img-panel-content reveal">
+    <span class="label label-light">Start Planning</span>
+    <h2>Your strategy begins<br>with a conversation.</h2>
+    <p>All initial consultations are obligation-free. We welcome enquiries at any stage of your financial journey.</p>
+    <a href="contact.html" class="btn btn-white">Book a Consultation</a>
+  </div>
+</div>
+
+<section class="section section-light">
+  <div class="section-header reveal"><span class="label" style="display:block;margin-bottom:0.9rem;">Also at J.P. Bergman</span><h2>Our other services.</h2></div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--rule);">
+    <a href="mortgages.html" class="card reveal"   style="display:block;transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Mortgage Broking</h3><p class="card-body" style="margin-bottom:1rem;">Access to 30+ lenders for home, investment and refinance loans.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+    <a href="lending.html"   class="card reveal r2" style="display:block;transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Private Lending</h3><p class="card-body" style="margin-bottom:1rem;">Bespoke credit when conventional finance can't move fast enough.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+    <a href="investing.html" class="card reveal r3" style="display:block;transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Investment Strategy</h3><p class="card-body" style="margin-bottom:1rem;">Research-driven portfolios aligned to your goals and risk tolerance.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand"><span class="footer-brand-name">J.P. Bergman</span><p>A Melbourne-based financial services practice providing mortgage broking, private lending, wealth management and investment strategy to clients across Australia.</p></div>
+    <div class="footer-col"><h5>Services</h5><ul><li><a href="mortgages.html">Mortgage Broking</a></li><li><a href="lending.html">Private Lending</a></li><li><a href="wealth.html">Wealth Management</a></li><li><a href="investing.html">Investment Strategy</a></li></ul></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Financial Services Guide</a></li></ul></div>
+    <div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:0000000000">+61 (0) 000 000 000</a></li><li><a href="mailto:enquiries@jpbergman.com.au">enquiries@jpbergman.com.au</a></li><li><a href="#">Melbourne, Victoria</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 J.P. Bergman Pty Ltd. All rights reserved. ABN: XX XXX XXX XXX</p>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">FSG</a></div>
+  </div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>

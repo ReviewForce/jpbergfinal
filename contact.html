@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — J.P. Bergman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span>J.P. Bergman</span></a>
+    <ul class="nav-items">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item">
+        <button>Services <span class="caret">▾</span></button>
+        <div class="dropdown">
+          <div class="dropdown-item"><a href="mortgages.html"><span class="dropdown-item-title">Mortgage Broking</span><span class="dropdown-item-desc">Home, investment &amp; refinancing</span></a></div>
+          <div class="dropdown-item"><a href="lending.html"><span class="dropdown-item-title">Private Lending</span><span class="dropdown-item-desc">Bridging, development &amp; commercial</span></a></div>
+          <div class="dropdown-item"><a href="wealth.html"><span class="dropdown-item-title">Wealth Management</span><span class="dropdown-item-desc">Strategy, super &amp; financial planning</span></a></div>
+          <div class="dropdown-item"><a href="investing.html"><span class="dropdown-item-title">Investment Strategy</span><span class="dropdown-item-desc">Portfolios, equities &amp; capital growth</span></a></div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:0000000000" class="nav-contact-link">+61 (0) 000 000 000</a>
+      <a href="contact.html" class="nav-enquire">Enquire Now</a>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <span class="mob-section-label">Services</span>
+  <a href="mortgages.html" class="mob-link" onclick="closeMobile()">Mortgage Broking</a>
+  <a href="lending.html"   class="mob-link" onclick="closeMobile()">Private Lending</a>
+  <a href="wealth.html"    class="mob-link" onclick="closeMobile()">Wealth Management</a>
+  <a href="investing.html" class="mob-link" onclick="closeMobile()">Investment Strategy</a>
+  <span class="mob-section-label">Company</span>
+  <a href="about.html"   class="mob-link" onclick="closeMobile()">About</a>
+  <a href="contact.html" class="mob-link" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<div class="page-hero hero-mid">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <p class="hero-label">Get in Touch</p>
+    <h1 class="hero-title-inner">Let us begin<br>the conversation.</h1>
+    <p class="hero-sub">All initial consultations are obligation-free. We welcome enquiries from individuals, families and businesses at any stage of their financial journey.</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a><span class="sep">/</span>
+  <span class="current">Contact</span>
+</div>
+
+<!-- CONTACT MAIN -->
+<section class="section section-white">
+  <div class="two-col gap-lg" style="align-items:start;">
+
+    <!-- Left: info -->
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Our Office</span>
+      <h2 class="reveal r2" style="margin-bottom:2rem;">J.P. Bergman<br>Melbourne</h2>
+
+      <div style="display:flex;flex-direction:column;gap:2.2rem;margin-bottom:3.5rem;">
+        <div class="reveal r3">
+          <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:0.4rem;">Telephone</p>
+          <a href="tel:0000000000" style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--navy);transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--navy)'">+61 (0) 000 000 000</a>
+        </div>
+        <div class="reveal r3">
+          <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:0.4rem;">Email</p>
+          <a href="mailto:enquiries@jpbergman.com.au" style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--navy);transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--navy)'">enquiries@jpbergman.com.au</a>
+        </div>
+        <div class="reveal r3">
+          <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:0.4rem;">Office Location</p>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--navy);">Melbourne CBD, Victoria</p>
+          <p style="font-size:0.82rem;color:var(--mid-grey);margin-top:0.3rem;">Street address available upon appointment</p>
+        </div>
+        <div class="reveal r3">
+          <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:0.4rem;">Office Hours</p>
+          <p style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--navy);">Monday – Friday</p>
+          <p style="font-size:0.82rem;color:var(--mid-grey);margin-top:0.3rem;">9:00 am – 5:30 pm AEST</p>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div class="reveal r4" style="border-top:1px solid var(--rule);padding-top:2rem;">
+        <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:1.2rem;">I am interested in…</p>
+        <div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--rule);">
+          <a href="mortgages.html" style="display:flex;justify-content:space-between;align-items:center;padding:1rem 1.2rem;border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:0.78rem;color:var(--body-text);transition:background 0.15s;" onmouseover="this.style.background='var(--off-white)'" onmouseout="this.style.background='transparent'">Mortgage Broking <span style="color:var(--mid-grey);">→</span></a>
+          <a href="lending.html"   style="display:flex;justify-content:space-between;align-items:center;padding:1rem 1.2rem;border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:0.78rem;color:var(--body-text);transition:background 0.15s;" onmouseover="this.style.background='var(--off-white)'" onmouseout="this.style.background='transparent'">Private Lending <span style="color:var(--mid-grey);">→</span></a>
+          <a href="wealth.html"    style="display:flex;justify-content:space-between;align-items:center;padding:1rem 1.2rem;border-bottom:1px solid var(--rule);font-family:var(--sans);font-size:0.78rem;color:var(--body-text);transition:background 0.15s;" onmouseover="this.style.background='var(--off-white)'" onmouseout="this.style.background='transparent'">Wealth Management <span style="color:var(--mid-grey);">→</span></a>
+          <a href="investing.html" style="display:flex;justify-content:space-between;align-items:center;padding:1rem 1.2rem;font-family:var(--sans);font-size:0.78rem;color:var(--body-text);transition:background 0.15s;" onmouseover="this.style.background='var(--off-white)'" onmouseout="this.style.background='transparent'">Investment Strategy <span style="color:var(--mid-grey);">→</span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: form -->
+    <div class="reveal r2" style="background:var(--off-white);padding:3rem;">
+      <p style="font-family:var(--sans);font-size:0.6rem;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--mid-grey);margin-bottom:2rem;">Send an Enquiry</p>
+
+      <form onsubmit="return handleSubmit(event);" style="display:flex;flex-direction:column;gap:1.2rem;">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="James" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Wilson" required />
+          </div>
+        </div>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="james@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+61 4XX XXX XXX" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Area of Interest</label>
+          <select id="service" required>
+            <option value="" disabled selected>Select a service…</option>
+            <option>Mortgage Broking</option>
+            <option>Private Lending</option>
+            <option>Wealth Management</option>
+            <option>Investment Strategy</option>
+            <option>General Enquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" placeholder="Tell us briefly about your situation and what you are looking to achieve…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-navy" style="width:100%;border:none;cursor:pointer;text-align:center;">Submit Enquiry</button>
+        <p class="form-disclaimer">By submitting this form you consent to J.P. Bergman contacting you regarding your enquiry. Your details are held in strict confidence and will not be shared with third parties. J.P. Bergman holds the relevant Australian Financial Services Licence for the services provided.</p>
+      </form>
+
+      <!-- Success message (hidden by default) -->
+      <div id="formSuccess" style="display:none;text-align:center;padding:3rem 1rem;">
+        <p style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--navy);margin-bottom:0.8rem;">Thank you.</p>
+        <p style="font-size:0.85rem;color:var(--mid-grey);line-height:1.8;">Your enquiry has been received. A member of our team will be in touch within one business day.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- MELBOURNE IMAGE PANEL -->
+<div class="img-panel" style="min-height:400px;">
+  <div class="img-panel-bg" style="background-image:url('https://images.unsplash.com/photo-1514395462725-fb4566210144?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="img-panel-overlay"></div>
+  <div class="img-panel-content reveal">
+    <span class="label label-light">Melbourne, Victoria</span>
+    <h2>Meet us in the city.</h2>
+    <p>We are based in Melbourne's CBD and meet with clients in person, by phone or via video conference — whichever is most convenient for you.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand"><span class="footer-brand-name">J.P. Bergman</span><p>A Melbourne-based financial services practice providing mortgage broking, private lending, wealth management and investment strategy to clients across Australia.</p></div>
+    <div class="footer-col"><h5>Services</h5><ul><li><a href="mortgages.html">Mortgage Broking</a></li><li><a href="lending.html">Private Lending</a></li><li><a href="wealth.html">Wealth Management</a></li><li><a href="investing.html">Investment Strategy</a></li></ul></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Financial Services Guide</a></li></ul></div>
+    <div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:0000000000">+61 (0) 000 000 000</a></li><li><a href="mailto:enquiries@jpbergman.com.au">enquiries@jpbergman.com.au</a></li><li><a href="#">Melbourne, Victoria</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 J.P. Bergman Pty Ltd. All rights reserved. ABN: XX XXX XXX XXX</p>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">FSG</a></div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    document.querySelector('form').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+    return false;
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — J.P. Bergman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span>J.P. Bergman</span></a>
+    <ul class="nav-items">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item">
+        <button>Services <span class="caret">▾</span></button>
+        <div class="dropdown">
+          <div class="dropdown-item"><a href="mortgages.html"><span class="dropdown-item-title">Mortgage Broking</span><span class="dropdown-item-desc">Home, investment &amp; refinancing</span></a></div>
+          <div class="dropdown-item"><a href="lending.html"><span class="dropdown-item-title">Private Lending</span><span class="dropdown-item-desc">Bridging, development &amp; commercial</span></a></div>
+          <div class="dropdown-item"><a href="wealth.html"><span class="dropdown-item-title">Wealth Management</span><span class="dropdown-item-desc">Strategy, super &amp; financial planning</span></a></div>
+          <div class="dropdown-item"><a href="investing.html"><span class="dropdown-item-title">Investment Strategy</span><span class="dropdown-item-desc">Portfolios, equities &amp; capital growth</span></a></div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="about.html" class="active">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:0000000000" class="nav-contact-link">+61 (0) 000 000 000</a>
+      <a href="contact.html" class="nav-enquire">Enquire Now</a>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <span class="mob-section-label">Services</span>
+  <a href="mortgages.html" class="mob-link" onclick="closeMobile()">Mortgage Broking</a>
+  <a href="lending.html"   class="mob-link" onclick="closeMobile()">Private Lending</a>
+  <a href="wealth.html"    class="mob-link" onclick="closeMobile()">Wealth Management</a>
+  <a href="investing.html" class="mob-link" onclick="closeMobile()">Investment Strategy</a>
+  <span class="mob-section-label">Company</span>
+  <a href="about.html"   class="mob-link" onclick="closeMobile()">About</a>
+  <a href="contact.html" class="mob-link" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<div class="page-hero hero-mid">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <p class="hero-label">About Us</p>
+    <h1 class="hero-title-inner">J.P. Bergman</h1>
+    <p class="hero-sub">A Melbourne-based financial services practice built on independence, integrity and a genuine commitment to our clients' long-term interests.</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a><span class="sep">/</span>
+  <span class="current">About</span>
+</div>
+
+<!-- WHO WE ARE -->
+<section class="section section-white">
+  <div class="two-col gap-lg">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Our Practice</span>
+      <h2 class="reveal r2" style="margin-bottom:1.5rem;">Finance practised<br>as it ought to be.</h2>
+      <p class="reveal r3" style="font-size:1.05rem;color:#4a5a68;line-height:1.85;margin-bottom:1.4rem;">
+        J.P. Bergman was founded on a straightforward conviction: that every individual and family deserves access to the same quality of financial advice once reserved for institutions and the privileged few.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:1.2rem;">
+        Based in Melbourne, we are a privately held practice with no institutional allegiances and no product obligations. Our advice is independent, our fees are transparent, and our focus is singular — the long-term financial wellbeing of our clients.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:1.2rem;">
+        Over more than fifteen years in practice, we have served clients across Victoria and throughout Australia — from first home buyers and young professionals building their financial foundations to established investors managing significant and complex wealth.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem;color:var(--mid-grey);line-height:1.9;margin-bottom:2.5rem;">
+        What has not changed across that time is our approach: listen carefully, advise honestly, execute with precision, and remain with our clients through every stage of their financial journey.
+      </p>
+      <a href="contact.html" class="btn btn-navy reveal r4">Get in Touch</a>
+    </div>
+    <div class="reveal r2">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&auto=format&fit=crop&q=80"
+           alt="J.P. Bergman — principal adviser"
+           style="width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(15%);" />
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item reveal"><span class="stat-val" data-count="15">15</span><span class="stat-lbl">Years in Practice</span></div>
+  <div class="stat-item reveal r2"><span class="stat-val" data-count="200">200</span><span class="stat-lbl">Million in Loans Settled</span></div>
+  <div class="stat-item reveal r3"><span class="stat-val" data-count="400">400</span><span class="stat-lbl">Clients Served</span></div>
+  <div class="stat-item reveal r4"><span class="stat-val" data-count="30">30</span><span class="stat-lbl">Lender Partners</span></div>
+</div>
+
+<!-- PILLARS -->
+<section class="section section-light">
+  <div class="section-header reveal">
+    <span class="label" style="display:block;margin-bottom:0.9rem;">Our Values</span>
+    <h2>The principles that define<br>our practice.</h2>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--rule);">
+    <div class="card reveal" style="border-top:3px solid var(--navy);">
+      <h3 class="card-title" style="font-size:1.4rem;margin-bottom:0.8rem;">Independence</h3>
+      <p class="card-body">We carry no institutional allegiances and no product quotas. Our recommendations are driven entirely by what is right for the client — selected from the full breadth of the market, not a preferred panel curated for our own benefit. You will never receive advice shaped by a commission structure you are unaware of.</p>
+    </div>
+    <div class="card reveal r2" style="border-top:3px solid var(--navy);">
+      <h3 class="card-title" style="font-size:1.4rem;margin-bottom:0.8rem;">Integrity</h3>
+      <p class="card-body">We say what we mean, and we mean what we say. Our fees are disclosed, our conflicts are declared, and our advice is given with the same candour we would apply to our own affairs. That is the only basis on which a long-term relationship of genuine value can be built.</p>
+    </div>
+    <div class="card reveal r3" style="border-top:3px solid var(--navy);">
+      <h3 class="card-title" style="font-size:1.4rem;margin-bottom:0.8rem;">Intelligence</h3>
+      <p class="card-body">Markets move, legislation changes and lender appetites shift. We invest continuously in our knowledge of current conditions — maintaining active relationships with lenders, institutions and specialists — so that our clients always benefit from advice that is current, accurate and grounded in genuine expertise.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MELBOURNE IMAGE PANEL -->
+<div class="img-panel" style="min-height:480px;">
+  <div class="img-panel-bg" style="background-image:url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="img-panel-overlay"></div>
+  <div class="img-panel-content reveal">
+    <span class="label label-light">Melbourne, Victoria</span>
+    <h2>Rooted in Melbourne.<br>Trusted across Australia.</h2>
+    <p>We have been part of the Melbourne financial community for over fifteen years. That history and those relationships are a genuine advantage for our clients.</p>
+  </div>
+</div>
+
+<!-- WHY CHOOSE US -->
+<section class="section section-white">
+  <div class="two-col">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Why J.P. Bergman</span>
+      <h2 class="reveal r2" style="margin-bottom:2rem;">What sets us apart.</h2>
+      <div style="display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule);">
+        <div class="reveal" style="display:grid;grid-template-columns:48px 1fr;gap:1.2rem;padding:1.8rem 0;border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:0.85rem;color:var(--mid-grey);padding-top:0.1rem;">01</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:0.4rem;">We are not a transactional practice</h4>
+            <p style="font-size:0.85rem;color:var(--mid-grey);line-height:1.85;">We form long-term relationships with our clients. Many have been with us for a decade or more. That continuity means we understand their history, their goals and their preferences — and our advice reflects that depth of understanding.</p>
+          </div>
+        </div>
+        <div class="reveal r2" style="display:grid;grid-template-columns:48px 1fr;gap:1.2rem;padding:1.8rem 0;border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:0.85rem;color:var(--mid-grey);padding-top:0.1rem;">02</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:0.4rem;">Full service, fully coordinated</h4>
+            <p style="font-size:0.85rem;color:var(--mid-grey);line-height:1.85;">Because we work across lending, wealth and investment, we see the whole picture. Decisions in one area of your financial life affect all others — and we account for that in the advice we give.</p>
+          </div>
+        </div>
+        <div class="reveal r3" style="display:grid;grid-template-columns:48px 1fr;gap:1.2rem;padding:1.8rem 0;border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:0.85rem;color:var(--mid-grey);padding-top:0.1rem;">03</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:0.4rem;">Direct access to senior expertise</h4>
+            <p style="font-size:0.85rem;color:var(--mid-grey);line-height:1.85;">You will work directly with experienced advisers — not with a junior team member who escalates to someone you rarely see. The person you meet is the person managing your affairs.</p>
+          </div>
+        </div>
+        <div class="reveal r4" style="display:grid;grid-template-columns:48px 1fr;gap:1.2rem;padding:1.8rem 0;">
+          <span style="font-family:'Cormorant Garamond',serif;font-size:0.85rem;color:var(--mid-grey);padding-top:0.1rem;">04</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;margin-bottom:0.4rem;">Transparent fees, no hidden costs</h4>
+            <p style="font-size:0.85rem;color:var(--mid-grey);line-height:1.85;">We disclose exactly what we charge, how we are compensated, and what you can expect in return. There are no surprises — only a clear understanding of the value we provide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal r2">
+      <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&auto=format&fit=crop&q=80"
+           alt="Melbourne CBD financial district"
+           style="width:100%;aspect-ratio:3/4;object-fit:cover;filter:grayscale(20%);" />
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section-dark" style="text-align:center;">
+  <span class="label label-light reveal" style="display:block;margin-bottom:1.2rem;">Work With Us</span>
+  <h2 class="reveal r2" style="color:var(--white);max-width:520px;margin:0 auto 1.2rem;font-size:clamp(2rem,3.5vw,3rem);">Ready to begin the conversation?</h2>
+  <p class="reveal r3" style="font-family:var(--sans);font-size:0.88rem;color:rgba(255,255,255,0.55);max-width:44ch;margin:0 auto 3rem;line-height:1.85;">All initial consultations are obligation-free. We welcome enquiries from individuals, families and businesses at any stage of their financial journey.</p>
+  <div class="reveal r4" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="contact.html" class="btn btn-white">Book a Consultation</a>
+    <a href="mortgages.html" class="btn btn-outline-white">View Our Services</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand"><span class="footer-brand-name">J.P. Bergman</span><p>A Melbourne-based financial services practice providing mortgage broking, private lending, wealth management and investment strategy to clients across Australia.</p></div>
+    <div class="footer-col"><h5>Services</h5><ul><li><a href="mortgages.html">Mortgage Broking</a></li><li><a href="lending.html">Private Lending</a></li><li><a href="wealth.html">Wealth Management</a></li><li><a href="investing.html">Investment Strategy</a></li></ul></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Financial Services Guide</a></li></ul></div>
+    <div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:0000000000">+61 (0) 000 000 000</a></li><li><a href="mailto:enquiries@jpbergman.com.au">enquiries@jpbergman.com.au</a></li><li><a href="#">Melbourne, Victoria</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 J.P. Bergman Pty Ltd. All rights reserved. ABN: XX XXX XXX XXX</p>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">FSG</a></div>
+  </div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>

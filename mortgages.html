@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mortgage Broking — J.P. Bergman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span>J.P. Bergman</span></a>
+    <ul class="nav-items">
+      <li class="nav-item"><a href="index.html">Home</a></li>
+      <li class="nav-item">
+        <button>Services <span class="caret">▾</span></button>
+        <div class="dropdown">
+          <div class="dropdown-item"><a href="mortgages.html"><span class="dropdown-item-title">Mortgage Broking</span><span class="dropdown-item-desc">Home, investment &amp; refinancing</span></a></div>
+          <div class="dropdown-item"><a href="lending.html"><span class="dropdown-item-title">Private Lending</span><span class="dropdown-item-desc">Bridging, development &amp; commercial</span></a></div>
+          <div class="dropdown-item"><a href="wealth.html"><span class="dropdown-item-title">Wealth Management</span><span class="dropdown-item-desc">Strategy, super &amp; financial planning</span></a></div>
+          <div class="dropdown-item"><a href="investing.html"><span class="dropdown-item-title">Investment Strategy</span><span class="dropdown-item-desc">Portfolios, equities &amp; capital growth</span></a></div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="about.html">About</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:0000000000" class="nav-contact-link">+61 (0) 000 000 000</a>
+      <a href="contact.html" class="nav-enquire">Enquire Now</a>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <span class="mob-section-label">Services</span>
+  <a href="mortgages.html" class="mob-link" onclick="closeMobile()">Mortgage Broking</a>
+  <a href="lending.html"   class="mob-link" onclick="closeMobile()">Private Lending</a>
+  <a href="wealth.html"    class="mob-link" onclick="closeMobile()">Wealth Management</a>
+  <a href="investing.html" class="mob-link" onclick="closeMobile()">Investment Strategy</a>
+  <span class="mob-section-label">Company</span>
+  <a href="about.html"   class="mob-link" onclick="closeMobile()">About</a>
+  <a href="contact.html" class="mob-link" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- HERO -->
+<div class="page-hero hero-mid">
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <p class="hero-label">Services</p>
+    <h1 class="hero-title-inner">Mortgage Broking</h1>
+    <p class="hero-sub">Access to over 30 lenders. The right loan, on the right terms — secured with experience and precision.</p>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a>
+  <span class="sep">/</span>
+  <a href="#">Services</a>
+  <span class="sep">/</span>
+  <span class="current">Mortgage Broking</span>
+</div>
+
+<!-- INTRO -->
+<section class="section section-white">
+  <div class="two-col gap-lg">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Home &amp; Investment Finance</span>
+      <h2 class="reveal r2" style="margin-bottom:1.5rem;">Navigating the lending<br>market on your behalf.</h2>
+      <p class="reveal r3" style="font-size:1.05rem; color:#4a5a68; line-height:1.85; margin-bottom:1.4rem;">
+        The Australian lending market is vast, complex and constantly shifting. Hundreds of lenders, thousands of products, and a set of conditions that changes with every rate cycle — navigating it alone puts most borrowers at a disadvantage before they have even begun.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem; color:var(--mid-grey); line-height:1.9; margin-bottom:1.2rem;">
+        Our role is to do the work on your behalf. Drawing on a panel of over thirty lenders — the major banks, second-tier institutions, specialist non-bank lenders and private credit providers — we identify the product most suited to your circumstances, negotiate the terms, and manage the process from application through to settlement.
+      </p>
+      <p class="reveal r3" style="font-size:0.9rem; color:var(--mid-grey); line-height:1.9; margin-bottom:2.5rem;">
+        We do not favour any single institution. Every recommendation we make is driven by one consideration: what is the best outcome for you.
+      </p>
+      <a href="contact.html" class="btn btn-navy reveal r4">Begin the Conversation</a>
+    </div>
+    <div class="reveal r2">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003dc5dfc?w=900&auto=format&fit=crop&q=80"
+           alt="Melbourne property — mortgage broking"
+           style="width:100%; aspect-ratio:4/5; object-fit:cover; filter:grayscale(20%);" />
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE COVER -->
+<section class="section section-light">
+  <div class="section-header reveal">
+    <span class="label" style="display:block;margin-bottom:0.9rem;">Areas of Expertise</span>
+    <h2>What we cover.</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:var(--rule);">
+    <div class="card reveal">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">Owner-Occupier Finance</h3>
+      <p class="card-body">Whether you are purchasing your first home or your fourth, we secure the right loan at the most competitive terms available — with a structure that reflects your long-term ownership goals.</p>
+    </div>
+    <div class="card reveal r2">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">Investment Property Lending</h3>
+      <p class="card-body">Property investment requires different structuring than owner-occupation. We work with investors to maximise borrowing capacity, optimise tax position and build a lending structure that supports portfolio growth.</p>
+    </div>
+    <div class="card reveal r3">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">Refinancing</h3>
+      <p class="card-body">Many borrowers are paying more than they should. A refinance at the right time, to the right product, can deliver significant savings — or unlock equity that can be put to productive use elsewhere.</p>
+    </div>
+    <div class="card reveal">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">Construction &amp; Land</h3>
+      <p class="card-body">Construction loans require more careful management than standard residential finance. We structure progress payment facilities and work with you and your builder to keep the process moving without unnecessary delays.</p>
+    </div>
+    <div class="card reveal r2">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">SMSF Lending</h3>
+      <p class="card-body">Borrowing inside a Self-Managed Super Fund carries specific compliance requirements and structural considerations. We have the expertise to navigate this space and access the lenders who understand it.</p>
+    </div>
+    <div class="card reveal r3">
+      <h3 class="card-title" style="font-size:1.2rem; margin-bottom:0.7rem;">Debt Consolidation</h3>
+      <p class="card-body">Consolidating existing debt into a single, better-structured facility can simplify your position and reduce your total interest burden. We assess whether consolidation genuinely serves your interests before recommending it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section section-white">
+  <div class="two-col">
+    <div>
+      <span class="label reveal" style="display:block;margin-bottom:1rem;">Our Process</span>
+      <h2 class="reveal r2" style="margin-bottom:2rem;">How we secure<br>your loan.</h2>
+      <div style="display:flex; flex-direction:column; gap:0; border-top:1px solid var(--rule);">
+        <div class="reveal" style="display:grid; grid-template-columns:48px 1fr; gap:1.2rem; padding:1.8rem 0; border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif; font-size:0.85rem; color:var(--mid-grey); padding-top:0.1rem;">01</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:0.4rem;">Discovery</h4>
+            <p style="font-size:0.85rem; color:var(--mid-grey); line-height:1.85;">We understand your goals, financial position and timeline — so we can identify the most appropriate lending options from the outset.</p>
+          </div>
+        </div>
+        <div class="reveal r2" style="display:grid; grid-template-columns:48px 1fr; gap:1.2rem; padding:1.8rem 0; border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif; font-size:0.85rem; color:var(--mid-grey); padding-top:0.1rem;">02</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:0.4rem;">Research &amp; Recommendation</h4>
+            <p style="font-size:0.85rem; color:var(--mid-grey); line-height:1.85;">We search the market, compare products across our full lender panel and present you with a clear recommendation — along with the reasoning behind it.</p>
+          </div>
+        </div>
+        <div class="reveal r3" style="display:grid; grid-template-columns:48px 1fr; gap:1.2rem; padding:1.8rem 0; border-bottom:1px solid var(--rule);">
+          <span style="font-family:'Cormorant Garamond',serif; font-size:0.85rem; color:var(--mid-grey); padding-top:0.1rem;">03</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:0.4rem;">Application &amp; Submission</h4>
+            <p style="font-size:0.85rem; color:var(--mid-grey); line-height:1.85;">We prepare and lodge your application, liaising directly with the lender to resolve queries, prevent delays and maximise your approval prospects.</p>
+          </div>
+        </div>
+        <div class="reveal r4" style="display:grid; grid-template-columns:48px 1fr; gap:1.2rem; padding:1.8rem 0;">
+          <span style="font-family:'Cormorant Garamond',serif; font-size:0.85rem; color:var(--mid-grey); padding-top:0.1rem;">04</span>
+          <div>
+            <h4 style="font-family:'Cormorant Garamond',serif; font-size:1.1rem; margin-bottom:0.4rem;">Settlement &amp; Beyond</h4>
+            <p style="font-size:0.85rem; color:var(--mid-grey); line-height:1.85;">We manage the settlement process and remain available after — reviewing your loan periodically to ensure it continues to serve you as conditions change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal r2">
+      <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&auto=format&fit=crop&q=80"
+           alt="Melbourne finance district"
+           style="width:100%; aspect-ratio:3/4; object-fit:cover; filter:grayscale(25%);" />
+    </div>
+  </div>
+</section>
+
+<!-- CTA IMAGE PANEL -->
+<div class="img-panel">
+  <div class="img-panel-bg" style="background-image:url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=1800&auto=format&fit=crop&q=80');"></div>
+  <div class="img-panel-overlay"></div>
+  <div class="img-panel-content reveal">
+    <span class="label label-light">Ready to Begin?</span>
+    <h2>Your next property starts with the right conversation.</h2>
+    <p>Whether you are purchasing, refinancing or investing — speak with us. All initial consultations are obligation-free.</p>
+    <a href="contact.html" class="btn btn-white">Enquire Now</a>
+  </div>
+</div>
+
+<!-- OTHER SERVICES -->
+<section class="section section-light">
+  <div class="section-header reveal">
+    <span class="label" style="display:block;margin-bottom:0.9rem;">Also at J.P. Bergman</span>
+    <h2>Our other services.</h2>
+  </div>
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:2px; background:var(--rule);">
+    <a href="lending.html"   class="card reveal"    style="display:block; transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Private Lending</h3><p class="card-body" style="margin-bottom:1rem;">Bespoke credit solutions when conventional finance can't move fast enough.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+    <a href="wealth.html"    class="card reveal r2"  style="display:block; transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Wealth Management</h3><p class="card-body" style="margin-bottom:1rem;">A holistic strategy for growing, protecting and preserving your wealth.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+    <a href="investing.html" class="card reveal r3"  style="display:block; transition:background 0.2s;" onmouseenter="this.style.background='#f7f8f9'" onmouseleave="this.style.background='var(--white)'"><h3 class="card-title" style="margin-bottom:0.5rem;">Investment Strategy</h3><p class="card-body" style="margin-bottom:1rem;">Research-driven portfolios built around your risk profile and long-term goals.</p><span style="font-size:0.62rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);">Learn More →</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-brand"><span class="footer-brand-name">J.P. Bergman</span><p>A Melbourne-based financial services practice providing mortgage broking, private lending, wealth management and investment strategy to clients across Australia.</p></div>
+    <div class="footer-col"><h5>Services</h5><ul><li><a href="mortgages.html">Mortgage Broking</a></li><li><a href="lending.html">Private Lending</a></li><li><a href="wealth.html">Wealth Management</a></li><li><a href="investing.html">Investment Strategy</a></li></ul></div>
+    <div class="footer-col"><h5>Company</h5><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Financial Services Guide</a></li></ul></div>
+    <div class="footer-col"><h5>Contact</h5><ul><li><a href="tel:0000000000">+61 (0) 000 000 000</a></li><li><a href="mailto:enquiries@jpbergman.com.au">enquiries@jpbergman.com.au</a></li><li><a href="#">Melbourne, Victoria</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 J.P. Bergman Pty Ltd. All rights reserved. ABN: XX XXX XXX XXX</p>
+    <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">FSG</a></div>
+  </div>
+</footer>
+<script src="nav.js"></script>
+</body>
+</html>
